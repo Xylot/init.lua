@@ -17,7 +17,7 @@ now(function()
     require("mason").setup()
     require("mason-lspconfig").setup({
         ensure_installed = {
-            'lua_ls', 'basedpyright', 'rust_analyzer', 'bashls', 'html', 'cssls', 'ts_ls',
+            'lua_ls', 'basedpyright', 'rust_analyzer', 'bashls', 'html', 'cssls', 'ts_ls', 'yamlls',
         },
         handlers = {
             function(server_name)

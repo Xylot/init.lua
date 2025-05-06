@@ -9,7 +9,7 @@ later(function()
   })
 
   require('nvim-treesitter.configs').setup({
-    ensure_installed = { 'lua', 'vimdoc' },
+    ensure_installed = { 'lua', 'vimdoc', 'yaml', 'python', 'rust', 'typescript'},
     highlight = { enable = true },
   })
 end)
